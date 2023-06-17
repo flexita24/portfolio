@@ -1,0 +1,21 @@
+.shape{
+    content:"";
+    border: 2px solid rgb(255, 2, 2);
+    border-radius: 100px 100px 0px 0px;
+    width: 100px;
+    height: 180px;
+    background-color: rgb(255, 2, 2);
+    transform: rotate(-30deg);
+}
+.shape::after{
+    content: "";
+    border: 2px solid rgb(255, 2, 2);
+    border-radius: 100px 100px 0px 0px;
+    width: 100px;
+    height: 180px;
+    background-color: rgb(255, 2, 2);
+    transform: rotate(30deg);
+    position: absolute;
+    top: 20px;
+    left: 55px;
+}

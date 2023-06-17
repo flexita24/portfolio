@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../images copy"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5502
+	}
+}
